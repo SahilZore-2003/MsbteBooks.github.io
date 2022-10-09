@@ -1,0 +1,60 @@
+#header{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+color: black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+    
+}
+.logo img{
+    width: 98px;
+    height: 112px;
+}
+.bookimg{
+    width: 100px;
+    height: 100px;
+}
+#header button{
+    padding: 5px 25%;
+    margin-top: 25px;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 10px 0;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px 0;
+    margin: 15px 0 0;
+    
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+   
+   .book{
+    margin: 10px 10px;
+   }
+  .small1{
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
