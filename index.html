@@ -27,7 +27,7 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#books">Books<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Books<span class="sr-only">(current)</span></a>
                 </li>
 
 
@@ -44,15 +44,69 @@
         <button class="btn btn-dark btn-lg">View</button>
     </header>
 
-    <section id="books">
+     <div class="container">
+        <div class="row flex">
+            <button class="col-3 mx-auto togglebtn togglebtn-focus">6 sem</button>
+            <button class="col-3 mx-auto togglebtn">5 sem</button>
+        </div>
+     </div>
+
+     <!-- six semester books  -->
+    <section id="books" class="books">
+        <div class="container">
+            <div class="row flex">
+
+                <div class="col-lg-3 book top">
+                    <img src="images/python.jpg" alt="" class="bookimg">
+                    <h3 class="text-center">Programing With Python</h3>
+                    <h5>22616</h5>
+                    <a href="books/python.pdf" download> <button class="btn btn-lg btn-dark ">Download</button></a>
+                </div>
+                <div class="col-lg-3 book">
+                    <img src="images/mad.webp" alt="" class="bookimg">
+                    <h3 class="text-center">MAD</h3>
+                    <h5>22617</h5>
+                    <a href="books/mad.pdf" download> <button class="btn btn-lg btn-dark ">Download</button></a>
+                </div>
+                <!-- <div class="col-lg-3 book">
+                    <img src="images/nis.webp" alt="" class="bookimg">
+                    <h3>Network and Cyber security </h3>
+                    <h5>22620</h5>
+                    <a href="books/nis.pdf" download> <button class="btn btn-lg btn-dark ">Download</button></a>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row flex">
+
+                <div class="col-lg-3 book">
+                    <img src="images/ETI.webp" alt="" class="bookimg">
+                    <h3 class="text-center">Emerging trends in CS and IT</h3>
+                    <h5>22618</h5>
+                    <a href="books/eti.pdf" download> <button class="btn btn-lg btn-dark ">Download</button></a>
+                </div>
+                <div class="col-lg-3 book">
+                    <img src="images/management.webp" alt="" class="bookimg">
+                    <h3 class="small1 text-center">Management</h3>
+                    <h5>22509</h5>
+                    <a href="books/management.pdf" download> <button class="btn btn-lg btn-dark ">Download</button></a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- 5th semester books  -->
+    <section id="books" class="books five">
         <div class="container">
             <div class="row flex">
 
                 <div class="col-lg-3 book top">
                     <img src="images/osy.webp" alt="" class="bookimg">
-                    <h3>Operating System</h3>
+                    <h3 class="text-center">Operating System</h3>
                     <h5>22516</h5>
-                    <a href="books/osy1.pdf" download> <button class="btn btn-lg btn-dark ">Download</button></a>
+                    <a href="books/osy.pdf" download> <button class="btn btn-lg btn-dark ">Download</button></a>
                 </div>
                 <div class="col-lg-3 book">
                     <img src="images/ste.jpg" alt="" class="bookimg">
@@ -93,7 +147,6 @@
             </div>
         </div>
     </section>
-
     <footer id="footer">
         Copyright &copy; Sahil Zore
     </footer>

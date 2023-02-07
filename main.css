@@ -48,6 +48,36 @@ justify-content: center;
     
 }
 
+.togglebtn{
+    background-color: transparent;
+    
+    outline: none;
+    border: none;
+    border-bottom: 5px solid black;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    
+}
+.togglebtn:focus{
+    border: none;
+    border-bottom:5px solid rgb(1, 255, 102);
+    outline: none;
+}
+
+.togglebtn-focus{
+    
+    border-bottom:5px solid rgb(1, 255, 102);
+    outline: none;
+
+}
+
+.five{
+    display: none;
+}
+
 @media screen and (min-width:300px) and (max-width:500px){
    
    .book{
